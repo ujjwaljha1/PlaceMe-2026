@@ -1,17 +1,16 @@
-<!-- Markdown content below -->
-
-# 📚 CSE - Practice Test -18 🚀
+# 📚 CSE - Practice Test -18
 
 ![Animated GIF](https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif)
 
-**Test ID:** `642307b743575277328f270e` :id:
-**Total Questions:** `15` 🧮
-**Total Time:** `25 minutes` :hourglass_flowing_sand:
+## Test Information
+
+- **Test ID:** `642307b743575277328f270e`
+- **Number of Questions:** `15`
+- **Time Limit:** `25 minutes`
 
 ---
 
-## 🔥 Question 1 🧠 🤔
-
+## Question 1
 Consider the following C program
 int main()
 {
@@ -28,185 +27,58 @@ n = n - m;
 }
 printf("%d", n);
 }
-What does the program compute?_
+What does the program compute?
 
-### 📋 Options:
-- A. 🔴 x mod y using repeated subtraction
-- B. 🔴 the least common multiple of x and y
-- C. 🔴 x + y using repeated subtraction
-- D. 🟢 the greatest common divisor of x and y
+### Options:
 
-**⭐ Correct Answer:** 🎯 `the greatest common divisor of x and y`
+A. ❌ x mod y using repeated subtraction
+B. ✅ the greatest common divisor of x and y
+C. ❌ x + y using repeated subtraction
+D. ❌ the least common multiple of x and y
+**Correct Answer:** the greatest common divisor of x and y
 
-✨ --- ✨ --- ✨
+---
 
-## 🔥 Question 2 🧠 🤔
+## Question 2
+The auxiliary space of insertion sort is O(1), what does O(1) mean ?
 
-What does it mean when we say that an algorithm X is asymptotically more efficient than Y?_
+### Options:
 
-### 📋 Options:
-- A. 🔴 X will be a better choice for all inputs except large inputs
-- B. 🟢 X will be a better choice for all inputs except small inputs
-- C. 🔴 X will be a better choice for all inputs
-- D. 🔴 Y will be a better choice for small inputs
+A. ❌ The memory (space) required to process the data is not constant.
+B. ❌ It is the speed at which the elements are traversed.
+C. ✅ It means the amount of extra memory Insertion Sort consumes doesn’t depend on the input. The algorithm should use the same amount of memory for all inputs.
+D. ❌ It takes only 1 kb of memory.
+**Correct Answer:** It means the amount of extra memory Insertion Sort consumes doesn’t depend on the input. The algorithm should use the same amount of memory for all inputs.
 
-**⭐ Correct Answer:** 🎯 `X will be a better choice for all inputs except small inputs`
+---
 
-✨ --- ✨ --- ✨
+## Question 3
+An algorithm is a _________ set of precise instructions for performing computation.
 
-## 🔥 Question 3 🧠 🤔
+### Options:
 
-What is the time complexity of the below function?
-void fun(int n, int arr[])
-{
-int i = 0, j = 0;
-for(; i &lt; n; ++i)
-while(j &lt; n &amp;&amp; arr[i] &lt; arr[j])
-j++;
-}_
+A. ❌ Constant
+B. ✅ Finite
+C. ❌ Infinite
+D. ❌ None of the mentioned
+**Correct Answer:** Finite
 
-### 📋 Options:
-- A. 🔴 O(n^2)
-- B. 🔴 O(n(logn)^2)
-- C. 🔴 O(nlogn)
-- D. 🟢 O(n)
+---
 
-**⭐ Correct Answer:** 🎯 `O(n)`
+## Question 4
+The complexity of Fibonacci series is
 
-✨ --- ✨ --- ✨
+### Options:
 
-## 🔥 Question 4 🧠 🤔
+A. ❌ O(n log n)
+B. ✅ O(2n)
+C. ❌ O(n2)
+D. ❌ O(log n)
+**Correct Answer:** O(2n)
 
-Which of the following is correct recurrence for worst case of Binary Search?_
+---
 
-### 📋 Options:
-- A. 🔴 T(n) = T(n-1) + O(1) and T(1) = T(0) = O(1)
-- B. 🔴 T(n) = 2T(n/2) + O(1) and T(1) = T(0) = O(1)
-- C. 🟢 T(n) = T(n/2) + O(1) and T(1) = T(0) = O(1)
-- D. 🔴 T(n) = T(n-2) + O(1) and T(1) = T(0) = O(1
-
-**⭐ Correct Answer:** 🎯 `T(n) = T(n/2) + O(1) and T(1) = T(0) = O(1)`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 5 🧠 🤔
-
-Step(s) in Divide and conquer process that takes a recursive approach is said to be_
-
-### 📋 Options:
-- A. 🟢 Divide/Break
-- B. 🔴 Conquer/Solve
-- C. 🔴 Both B and C
-- D. 🔴 Merge/Combine
-
-**⭐ Correct Answer:** 🎯 `Divide/Break`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 6 🧠 🤔
-
-The complexity of Fibonacci series is_
-
-### 📋 Options:
-- A. 🔴 O(n log n)
-- B. 🔴 O(n2)
-- C. 🔴 O(log n)
-- D. 🟢 O(2n)
-
-**⭐ Correct Answer:** 🎯 `O(2n)`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 7 🧠 🤔
-
-The given array is arr = {2,6,1}. What are the pivots that are returned as a result of subsequent partitioning?_
-
-### 📋 Options:
-- A. 🔴 2 and 6
-- B. 🔴 1 and 6
-- C. 🔴 6 and 1
-- D. 🟢 None of the mentioned
-
-**⭐ Correct Answer:** 🎯 `None of the mentioned`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 8 🧠 🤔
-
-QuickSort can be categorized into which of the following?_
-
-### 📋 Options:
-- A. 🔴 Dynamic programming
-- B. 🟢 Divide and conquer
-- C. 🔴 Greedy algorithm
-- D. 🔴 Brute Force technique
-
-**⭐ Correct Answer:** 🎯 `Divide and conquer`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 9 🧠 🤔
-
-An algorithm is a _________ set of precise instructions for performing computation._
-
-### 📋 Options:
-- A. 🟢 Finite
-- B. 🔴 Infinite
-- C. 🔴 Constant
-- D. 🔴 None of the mentioned
-
-**⭐ Correct Answer:** 🎯 `Finite`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 10 🧠 🤔
-
-The minimum number of comparisons required to find the minimum and the maximum of 100 numbers is ______________._
-
-### 📋 Options:
-- A. 🔴 140
-- B. 🟢 148
-- C. 🔴 147
-- D. 🔴 146
-
-**⭐ Correct Answer:** 🎯 `148`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 11 🧠 🤔
-
-What is the value of following recurrence?
-T(n) = T(n/4) + T(n/2) + cn^2
-T(1) = c
-T(0) = 0
-Where c is a positive constant_
-
-### 📋 Options:
-- A. 🔴 O(nLogn)
-- B. 🟢 O(n^2)
-- C. 🔴 O(n^2 Logn)
-- D. 🔴 O(n^3)
-
-**⭐ Correct Answer:** 🎯 `O(n^2)`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 12 🧠 🤔
-
-Consider a sorted array of n numbers. What would be the time complexity of the best known algorithm to find a pair a and b such that |a-b| = k , k being a positive integer._
-
-### 📋 Options:
-- A. 🔴 O(logn)
-- B. 🔴 O(nlog n)
-- C. 🔴 O(n2)
-- D. 🟢 O(n)
-
-**⭐ Correct Answer:** 🎯 `O(n)`
-
-✨ --- ✨ --- ✨
-
-## 🔥 Question 13 🧠 🤔
-
+## Question 5
 The time complexity of the following C function is (assume n &gt; 0
 int recursive (int n)
 {
@@ -214,52 +86,165 @@ if (n == 1)
 return (1);
 else
 return (recursive (n-1) + recursive (n-1));
-}_
+}
 
-### 📋 Options:
-- A. 🟢 0(2^n)
-- B. 🔴 0(nlogn)
-- C. 🔴 0(n^2)
-- D. 🔴 0(n)
+### Options:
 
-**⭐ Correct Answer:** 🎯 `0(2^n)`
+A. ❌ 0(n^2)
+B. ❌ 0(nlogn)
+C. ❌ 0(n)
+D. ✅ 0(2^n)
+**Correct Answer:** 0(2^n)
 
-✨ --- ✨ --- ✨
+---
 
-## 🔥 Question 14 🧠 🤔
+## Question 6
+The given array is arr = {2,6,1}. What are the pivots that are returned as a result of subsequent partitioning?
 
-Which of the following is TRUE?_
+### Options:
 
-### 📋 Options:
-- A. 🔴 The cost of searching an AVL tree is θ (log n) but that of a complete binary tree is θ (n log n)
-- B. 🔴 The cost of searching an AVL tree is θ (n log n) but that of a binary search tree is O(n)
-- C. 🔴 The cost of searching a binary search tree is O (log n ) but that of an AVL tree is θ(n)
-- D. 🟢 The cost of searching an AVL tree is θ (log n) but that of a binary search tree is O(n)
+A. ❌ 6 and 1
+B. ❌ 1 and 6
+C. ❌ 2 and 6
+D. ✅ None of the mentioned
+**Correct Answer:** None of the mentioned
 
-**⭐ Correct Answer:** 🎯 `The cost of searching an AVL tree is θ (log n) but that of a binary search tree is O(n)`
+---
 
-✨ --- ✨ --- ✨
+## Question 7
+Which of the following is correct recurrence for worst case of Binary Search?
 
-## 🔥 Question 15 🧠 🤔
+### Options:
 
-The auxiliary space of insertion sort is O(1), what does O(1) mean ?_
+A. ❌ T(n) = 2T(n/2) + O(1) and T(1) = T(0) = O(1)
+B. ❌ T(n) = T(n-1) + O(1) and T(1) = T(0) = O(1)
+C. ✅ T(n) = T(n/2) + O(1) and T(1) = T(0) = O(1)
+D. ❌ T(n) = T(n-2) + O(1) and T(1) = T(0) = O(1
+**Correct Answer:** T(n) = T(n/2) + O(1) and T(1) = T(0) = O(1)
 
-### 📋 Options:
-- A. 🟢 It means the amount of extra memory Insertion Sort consumes doesn’t depend on the input. The algorithm should use the same amount of memory for all inputs.
-- B. 🔴 The memory (space) required to process the data is not constant.
-- C. 🔴 It takes only 1 kb of memory.
-- D. 🔴 It is the speed at which the elements are traversed.
+---
 
-**⭐ Correct Answer:** 🎯 `It means the amount of extra memory Insertion Sort consumes doesn’t depend on the input. The algorithm should use the same amount of memory for all inputs.`
+## Question 8
+The minimum number of comparisons required to find the minimum and the maximum of 100 numbers is ______________.
 
-✨ --- ✨ --- ✨
+### Options:
 
-## :sos: Need Help? ✋
+A. ❌ 147
+B. ❌ 146
+C. ❌ 140
+D. ✅ 148
+**Correct Answer:** 148
 
-💬 If you encounter any issues or have questions, please don't hesitate to reach out!
+---
 
-🔗 [Report an Issue](https://example.com/report-issue)
+## Question 9
+Step(s) in Divide and conquer process that takes a recursive approach is said to be
 
-![Thank You](https://media.giphy.com/media/3o6Zt6KHxJTbXCnSvu/giphy.gif)
+### Options:
 
-:clock10: *Last updated: 2024-07-22 18:05:13*
+A. ✅ Divide/Break
+B. ❌ Both B and C
+C. ❌ Merge/Combine
+D. ❌ Conquer/Solve
+**Correct Answer:** Divide/Break
+
+---
+
+## Question 10
+What is the value of following recurrence?
+T(n) = T(n/4) + T(n/2) + cn^2
+T(1) = c
+T(0) = 0
+Where c is a positive constant
+
+### Options:
+
+A. ❌ O(n^2 Logn)
+B. ❌ O(n^3)
+C. ✅ O(n^2)
+D. ❌ O(nLogn)
+**Correct Answer:** O(n^2)
+
+---
+
+## Question 11
+What is the time complexity of the below function?
+void fun(int n, int arr[])
+{
+int i = 0, j = 0;
+for(; i &lt; n; ++i)
+while(j &lt; n &amp;&amp; arr[i] &lt; arr[j])
+j++;
+}
+
+### Options:
+
+A. ❌ O(n^2)
+B. ❌ O(n(logn)^2)
+C. ✅ O(n)
+D. ❌ O(nlogn)
+**Correct Answer:** O(n)
+
+---
+
+## Question 12
+QuickSort can be categorized into which of the following?
+
+### Options:
+
+A. ❌ Greedy algorithm
+B. ✅ Divide and conquer
+C. ❌ Brute Force technique
+D. ❌ Dynamic programming
+**Correct Answer:** Divide and conquer
+
+---
+
+## Question 13
+Consider a sorted array of n numbers. What would be the time complexity of the best known algorithm to find a pair a and b such that |a-b| = k , k being a positive integer.
+
+### Options:
+
+A. ❌ O(n2)
+B. ❌ O(logn)
+C. ❌ O(nlog n)
+D. ✅ O(n)
+**Correct Answer:** O(n)
+
+---
+
+## Question 14
+What does it mean when we say that an algorithm X is asymptotically more efficient than Y?
+
+### Options:
+
+A. ❌ Y will be a better choice for small inputs
+B. ❌ X will be a better choice for all inputs
+C. ✅ X will be a better choice for all inputs except small inputs
+D. ❌ X will be a better choice for all inputs except large inputs
+**Correct Answer:** X will be a better choice for all inputs except small inputs
+
+---
+
+## Question 15
+Which of the following is TRUE?
+
+### Options:
+
+A. ❌ The cost of searching a binary search tree is O (log n ) but that of an AVL tree is θ(n)
+B. ❌ The cost of searching an AVL tree is θ (n log n) but that of a binary search tree is O(n)
+C. ✅ The cost of searching an AVL tree is θ (log n) but that of a binary search tree is O(n)
+D. ❌ The cost of searching an AVL tree is θ (log n) but that of a complete binary tree is θ (n log n)
+**Correct Answer:** The cost of searching an AVL tree is θ (log n) but that of a binary search tree is O(n)
+
+---
+
+## Need Help?
+
+If you're stuck on a question, need clarification, or believe there's an issue with the test, please don't hesitate to reach out!
+
+<a href='mailto:ujjwaljha744@gmail.com?subject=Help%20Needed%20-%20CSE - Practice Test -18&body=Test%20ID%3A%20642307b743575277328f270e%0A%0AQuestion%20Number%3A%20%0A%0ADescription%20of%20Issue%3A%20' style='display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;'>Report Issue / Ask for Help</a>
+
+![Thank You](https://media.giphy.com/media/M9NbzZjAcxq9jS9LZJ/giphy.gif)
+
+*Last updated: 2024-07-22 21:04:33*
